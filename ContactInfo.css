@@ -1,0 +1,103 @@
+/* Container Styling */
+.contact-info-container {
+    max-width: 90%;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: rgba(59, 58, 62, 30);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title and Description */
+  .contact-title {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .company-description {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 2rem;
+    animation: slideIn 1.2s ease-in-out;
+  }
+  
+  /* Contact Card Wrapper */
+  .contact-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  /* Individual Contact Card Styling */
+  .contact-card {
+    width: 300px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Contact Card Hover Effect */
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(2, 2, 10, 0.55);
+  }
+  
+  /* Query Type Title */
+  .query-type {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Contact Description */
+  .contact-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  /* Contact Email and Phone */
+  .contact-email,
+  .contact-phone {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Link Styling */
+  .contact-email a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-email a:hover {
+    color: #003399;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
+  /* Animations */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }  

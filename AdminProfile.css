@@ -1,0 +1,20 @@
+.admin-profile {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 2px solid #e0e0e0;
+}
+
+.admin-avatar {
+    margin-left: 47px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+h2, p {
+    margin: 10px 0;
+}

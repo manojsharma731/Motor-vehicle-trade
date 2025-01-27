@@ -1,0 +1,60 @@
+/* Hero section styling */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000; /* Fallback color */
+}
+ .me-3{
+  background-color: white;
+}
+/* Background video styling */
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make the video cover the entire background */
+  z-index: -1; /* Place the video behind the content */
+}
+
+/* Container text styling */
+.hero-section h1,
+.hero-section p {
+  z-index: 2; /* Ensure the text appears above the video */
+  position: relative;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add some shadow to make the text stand out */
+}
+
+/* Button styling */
+.hero-section .btn {
+  width: 160px;
+  margin-top: 20px;
+  z-index: 2; /* Ensure buttons appear above the video */
+  position: relative;
+}
+/* HeroSection.css */
+
+/* Default light mode styles */
+.light-mode .hero-section {
+  background-color: rgb(8 6 18 / 0%);
+  color: #000;
+}
+
+/* Dark mode styles */
+.dark-mode .hero-section {
+  background-color: rgba(217, 215, 223, 0);
+  color: #242121;
+}
+
+/* Adjust the background video based on the theme */
+.dark-mode .background-video {
+  opacity: 0.9;
+}
+
+.light-mode .background-video {
+  opacity: 1;
+}
+
+/* Add other dark mode styles as needed */
